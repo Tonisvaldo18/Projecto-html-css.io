@@ -1,0 +1,337 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.logo{
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.nav-itens{
+    list-style: none;
+    display: flex;
+}
+
+.nav-itens li a{
+    padding-left: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.search{
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.iservice{
+    padding: 5px 30px;
+    font-size: 15px;
+    background-color: rgba(237, 1, 127, 1);
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+
+.secao1{
+    width: 100%;
+    height: 600px;
+}
+
+.tittle-secao1{
+    width: 453px;
+    height: 136px;
+    padding-top: 222px;
+    padding-left: 135px;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: left;
+}
+
+.secao1 .subtitle h2{
+    padding-top: 135px;
+    padding-left: 135px;
+    font-size: 10px;
+}
+
+.btns-secao1{
+    padding-top: 40px;
+    padding-left: 135px;
+}
+
+.Apply-Online{
+    width: 157px;
+    height: 45px;
+    background: rgba(237, 1, 127, 1);
+    color:rgba(255, 255, 255, 1);
+    border: none;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.Loan-Caclulator{
+    width: 157px;
+    height: 45px;
+    background: rgba(255, 255, 255, 1);
+    color: rgba(237, 1, 127, 1);
+    font-weight: 600;
+    border: 2px 2px 2px 2px;
+    border-radius: 6px;
+    border-color:rgba(237, 1, 127, 1);
+    cursor: pointer;
+}
+
+.secao2{
+    width: 100%;
+    height: 650px;
+}
+
+.tittle-secao2 h1{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.subtitle-secao2 h2{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.grid1{
+    display: flex;
+    justify-content: center;
+    padding-left: 135px;
+}
+
+.col{
+    padding-top: 60px;
+    padding-right: 135px;
+}
+
+.grid2{
+    display: flex;
+    justify-content: center;
+    padding-left: 135px;
+}
+
+.col{
+    padding-top: 60px;
+    padding-right: 135px;
+}
+
+.seccao3-business{
+    width: 100%;
+    height: 449px;
+    background: rgba(252, 224, 239, 0.2);
+}
+
+.title-secao3{
+    padding-top: 78px;
+    text-align: center;
+
+}
+
+.img-seccao3{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bussiness-img{
+    padding-top: 70px;
+}
+
+.seccao3-IPDC{
+    width: 100%;
+    height: 610px;
+    /* background-color: red; */
+}
+.seccao3-IPDC{
+    display: flex;
+}
+.seccao3-IPDC img{
+    width: 618px;
+    height: 610px;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+}
+
+.title-ipdc{
+    padding-top: 140px;
+    padding-left: 200px
+}
+
+.btn-read{
+    padding-top: 20px;
+}
+
+.Read-More{
+    background-color: #fff;
+    border: none;
+    color:  rgba(237, 1, 127, 1);
+    cursor: pointer;
+    font-size: 19px;
+}
+
+.our-Secao4{
+    width: 100%;
+    height: 800px;
+    background-color:rgba(254, 249, 252, 1);
+}
+
+.title-secao4 h1{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.title-secao4 p{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.img-seccao4{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-service{
+    padding-top: 70px;
+}
+
+.secao5{
+    width: 100%;
+    height: 550px;
+}
+
+.title-secao5 h1{
+    padding-top: 106px;
+    text-align: center;
+}
+
+.title-secao5 p{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.secao5-best {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 135px;
+}
+
+.grid3{
+    padding-top: 60px;
+    padding-right: 135px;
+    gap: 8px;
+}
+
+.secao5-best1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 135px;
+}
+
+.grid4{
+    padding-top: 60px;
+    padding-right: 135px;
+    gap: 8px;
+}
+
+.secao6{
+    width: 100%;
+    height: 403px;
+    background-color:rgba(254, 249, 252, 1);
+}
+
+.title-secao6 h1{
+    padding-top: 100px;
+    text-align: center;
+}
+.title-secao6 p{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.secao-news{
+    padding-top: 60px;
+   text-align: center;
+}
+
+.btn-news{
+    width: 132px;
+    height: 46px;
+    padding: 13px 24px 13px 24px;
+    background-color: rgba(237, 1, 127, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: Metropolis;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+.email{
+    padding: 15px 60px;
+    border-radius: 10px;
+}
+
+.area-footer{
+    width: 100%;
+    height: 250px;
+}
+
+.itens {
+    list-style-type: none;
+    padding-top: 50px;
+    margin-left: 135px;
+  }
+  
+  .itens > li {
+    float: left;
+    padding: 20px;
+  }
+  
+  .itens::after {
+    clear:both;
+    content: "";
+    display: block;
+  }
+
+  .itens-redes{
+    margin-right: 20px;
+  }
+
+  .itens-redes img{
+    width: 20px;
+    height: 25px;
+    padding-top: 10px;
+}
+
+.itens-contact img{
+    margin-left: 150px;
+    padding-top: 10px;
+
+}
+
+.itens-contact h4{
+    padding-top: 10px;
+    margin-left: 150px;
+    float: right;
+}
+
+
+
